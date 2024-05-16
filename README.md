@@ -6,6 +6,7 @@ Ce site web est conçu pour vous permettre de vous entraîner en cardio en prati
 ## Fonctionnalités
 
 - Entraînement en "Shadow Boxing" avec choix de niveau de difficulté.
+- Choix de la pratique MMA ou Boxe Anglaise
 - Contenu sur les meilleurs sportifs pour inspiration.
 - Authentification et connexion avec votre compte utilisateur.
 - Suivi des séances d'entraînement effectuées.
