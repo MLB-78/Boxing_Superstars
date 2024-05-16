@@ -1,3 +1,21 @@
 # Boxing Superstar - "Le projet de toute une vie"
-La fonction principale du site web c'est de pouvoir entraîner son cardio en fesant du "Shadow Boxing", avec un niveau de diffculté au choix. Avec une interface plaisante, et du contenu sur les meilleurs sportif du moment sur lesquelles tu pourras t'inspirer pour ton shadow, tu pourras t'authentifier et te connecter avec ton compte et t'entraîner et voir les scéances que tu as déjà effectuer. Ce projet se composeras avec react / node et mango DB
+## Site Web d'Entraînement Cardio
 
+Ce site web est conçu pour vous permettre de vous entraîner en cardio en pratiquant le "Shadow Boxing" avec différents niveaux de difficulté. Doté d'une interface plaisante, il offre également du contenu sur les meilleurs sportifs du moment, vous permettant de vous inspirer pour vos séances de shadow boxing.
+
+## Fonctionnalités
+
+- Entraînement en "Shadow Boxing" avec choix de niveau de difficulté.
+- Contenu sur les meilleurs sportifs pour inspiration.
+- Authentification et connexion avec votre compte utilisateur.
+- Suivi des séances d'entraînement effectuées.
+
+## Aperçu
+
+## Technologies Utilisées
+
+Ce projet est développé en utilisant les technologies suivantes :
+
+- **React** : pour la partie front-end de l'application.
+- **Node.js** : pour la partie back-end de l'application.
+- **MongoDB** : pour la base de données.
