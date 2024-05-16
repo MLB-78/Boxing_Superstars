@@ -5,7 +5,8 @@ Ce site web est conçu pour vous permettre de vous entraîner en cardio en prati
 
 ## MCD
 <img src="mcd.bs.png" alt="Texte alternatif" width="300" />
-
+## Suivi du projet avec Trello
+<img src="trell.png" alt="Texte alternatif" width="300" />
 ## Fonctionnalités
 
 - Entraînement en "Shadow Boxing" avec choix de niveau de difficulté.
