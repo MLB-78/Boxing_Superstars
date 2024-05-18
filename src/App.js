@@ -1,7 +1,7 @@
 import './App.css';
-import Navbar from './components/js/Navbar';
-import ISection from './components/js/ISection';
-import Info from './components/js/Info';
+import Navbar from './components/homepage/js/Navbar';
+import ISection from './components/homepage/js/ISection';
+import Info from './components/homepage/js/Info';
 
 
 function App() {
