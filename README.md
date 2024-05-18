@@ -8,6 +8,7 @@ Ce site web est conçu pour vous permettre de vous entraîner en cardio en prati
 
 ## Suivi du projet avec Trello
 <img src="trell.png" alt="Texte alternatif" width="300" />
+
 ### Gestion du Projet
 - Réflexion du site avec le MCD (j-1)
 - Création de la base et des données dans la bdd mongo (j-1)
