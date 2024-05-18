@@ -1,11 +1,11 @@
 import React from 'react';
-import './ISection.css';
+import '../css/ISection.css';
+
 function AdeSection() {
   return (
     <section className="ade-section">
       <div className="background-image">
-        {/* Image de fond */}
-        <img src="images/cage.jpg" alt="Background" />
+        <img src="images/cb.jpg" alt="Background" />
       </div>
       <div className="content">
         {/* Boutons */}

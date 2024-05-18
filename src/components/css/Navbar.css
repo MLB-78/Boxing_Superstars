@@ -1,0 +1,114 @@
+nav {
+  font-family: Consolas, monospace;
+  min-height: 110px;
+}
+
+#menu{
+  width: 30px;
+  align-items: center;
+}
+
+.bg-darkblue {
+  background: black;
+}
+
+.navbar-brand {
+  color: #fff;
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.navbar-toggler {
+  background: none;
+  border: none;
+  color: white;
+  cursor: pointer;
+  display: block;
+}
+
+.navbar-toggler-icon {
+  background-color: white;
+  display: block;
+  height: 2px;
+  margin: 6px 0;
+  width: 24px;
+}
+
+.navbar-collapse {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 1.2s ease-in-out;
+}
+
+.navbar-collapse.show {
+  max-height: 1000px; /* Adjust as necessary */
+}
+
+.navbar-nav {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.nav-item {
+  margin: 10px 0;
+}
+
+.nav-link {
+  color: #fff;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.nav-link:hover {
+  color: #d1d1d1;
+}
+
+.btn-outline-light {
+  color: #fff;
+  border-color: #fff;
+}
+
+.btn-outline-light:hover {
+  color: #001f3f;
+  background-color: #fff;
+  border-color: #fff;
+}
+
+.btn-light {
+  color: #001f3f;
+  background-color: #fff;
+  border-color: #fff;
+}
+
+.btn-light:hover {
+  color: #fff;
+  background-color: #001f3f;
+  border-color: #001f3f;
+}
+
+@media (min-width: 1000px) {
+  .navbar-collapse {
+    display: flex !important;
+    justify-content: space-between;
+    max-height: none !important;
+    overflow: visible !important;
+  }
+
+  .navbar-nav {
+    flex-direction: row;
+  }
+
+  .nav-item {
+    margin-right: 15px;
+  }
+
+  .navbar-toggler {
+    display: none;
+  }
+}

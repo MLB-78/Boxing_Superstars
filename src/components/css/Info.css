@@ -1,0 +1,52 @@
+body{
+    color: white;
+    background-color: black;
+    
+}
+h1{
+    text-align: center;
+}
+.orga {
+    background: white;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+.orga img {
+    margin: 0 10px; 
+    width: 100px;
+    min-width: 40px;
+}
+#p{
+    width: 90px;
+}
+#b{
+    width: 120px;
+}
+#wb{
+    width: 180px;
+}
+
+  
+  
+.txt{
+    width: 50%;
+    padding: 25px;
+    margin: auto;
+    box-shadow: rgb(255, 255, 255) 0px 0px 12px 0px;
+    border-radius: 8px;
+    font-family: Roboto, sans-serif;
+    font-size: 20px;
+
+}
+
+@media (max-width: 1000px){
+
+    .txt{
+        width: 88%;
+
+    }
+
+}
