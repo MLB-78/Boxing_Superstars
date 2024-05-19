@@ -5,7 +5,7 @@ function AdeSection() {
   return (
     <section className="ade-section">
       <div className="background-image">
-        <img src="images/cb.jpg" alt="Background" />
+      <img src={`${process.env.PUBLIC_URL}/images/cb.jpg`} alt="Fight" />
       </div>
       <div className="content">
         <button className="btn btn-primary">Commencer</button>

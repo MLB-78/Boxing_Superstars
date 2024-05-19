@@ -1,0 +1,55 @@
+/* components/homepage/css/LoadingSpinner.css */
+
+.spinner-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+  }
+  
+  .spinner {
+    position: relative;
+    width: 60px;
+    height: 60px;
+  }
+  
+  .dot1, .dot2, .dot3 {
+    width: 15px;
+    height: 15px;
+    background-color: #ffffff; /* Couleur des points */
+    border-radius: 50%;
+    position: absolute;
+    animation: dotSpin 1.2s infinite ease-in-out;
+  }
+  
+  .dot1 {
+    top: 0;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+  .dot2 {
+    top: 50%;
+    left: 0;
+    transform: translate(-50%, -50%);
+    animation-delay: -0.4s;
+  }
+  
+  .dot3 {
+    top: 50%;
+    right: 0;
+    transform: translate(-50%, -50%);
+    animation-delay: -0.8s;
+  }
+  
+  @keyframes dotSpin {
+    0%, 100% {
+      transform: scale(0) translate(-50%, -50%);
+    }
+    50% {
+      transform: scale(1) translate(-50%, -50%);
+    }
+  }
+  

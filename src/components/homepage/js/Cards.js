@@ -5,7 +5,7 @@ function Cards() {
   return (
     <div className="cards">
         <br></br>
-        <h1>RUBRIQUES</h1>
+        <h1>RUBRIQUES PRINCIPALES</h1>
         <br></br>
         <div className="cardImage">
         <div className="c1">

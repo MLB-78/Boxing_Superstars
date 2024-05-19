@@ -23,6 +23,7 @@ body{
 .c1 img:hover{
     transform: scale(1.07);
     transition: 1.5s;
+    cursor: pointer;
 }
 .c2{
     display: flex;
@@ -44,6 +45,7 @@ body{
 .c2 img:hover{
     transform: scale(1.07);
     transition: 1.5s;
+    cursor: pointer;
 }
 
 .image-container {
