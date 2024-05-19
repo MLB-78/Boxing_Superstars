@@ -72,6 +72,7 @@ nav {
 .btn-outline-light {
   color: #fff;
   border-color: #fff;
+  min-width: 200px;
 }
 
 .btn-outline-light:hover {
@@ -84,6 +85,7 @@ nav {
   color: #001f3f;
   background-color: #fff;
   border-color: #fff;
+  min-width: 200px;
 }
 
 .btn-light:hover {
@@ -111,4 +113,6 @@ nav {
   .navbar-toggler {
     display: none;
   }
+ 
+
 }

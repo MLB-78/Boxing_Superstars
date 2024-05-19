@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-// import { CSSTransition } from 'react-transition-group';
 import '../css/Navbar.css';
 
 function Navbar() {
@@ -18,12 +17,7 @@ function Navbar() {
         <button className={`navbar-toggler ${isCollapsed ? '' : 'active'}`} type="button" onClick={handleToggleClick}>
         <img src={`${process.env.PUBLIC_URL}/icon/menu.png`} id='menu' />
         </button>
-        {/* <CSSTransition
-          in={!isCollapsed}
-          timeout={3000}
-          classNames="navbar-collapse"
-          unmountOnExit
-        > */}
+
           <div className={`navbar-collapse ${isCollapsed ? '' : 'show'}`} id="navbarNav">
             <ul className="navbar-nav mx-auto">
               <li className="nav-item">
@@ -46,7 +40,6 @@ function Navbar() {
               </li>
             </ul>
           </div>
-        {/* </CSSTransition> */}
       </div>
     </nav>
   );

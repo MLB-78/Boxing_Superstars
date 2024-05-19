@@ -5,12 +5,12 @@ function Info() {
   return (
     <div className="info">
       <div className="orga">
-        <img src={`${process.env.PUBLIC_URL}/images/ufc.png`} id='u' alt="UFC" />
-        <img src={`${process.env.PUBLIC_URL}/images/pfl.png`} id='p' alt="PFL" />
-        <img src={`${process.env.PUBLIC_URL}/images/bellator.png`} id='b' alt="BELLATOR" />
-        <img src={`${process.env.PUBLIC_URL}/images/wbc.png`} id='w' alt="WBC" />
-        <img src={`${process.env.PUBLIC_URL}/images/wba.png`} id='wb' alt="WBA" />
-        <img src={`${process.env.PUBLIC_URL}/images/ibf.png`} id='i' alt="IBF" />
+        <img src={`${process.env.PUBLIC_URL}/images/organisation/ufc.png`} id='u' alt="UFC" />
+        <img src={`${process.env.PUBLIC_URL}/images/organisation/pfl.png`} id='p' alt="PFL" />
+        <img src={`${process.env.PUBLIC_URL}/images/organisation/bellator.png`} id='b' alt="BELLATOR" />
+        <img src={`${process.env.PUBLIC_URL}/images/organisation/wbc.png`} id='w' alt="WBC" />
+        <img src={`${process.env.PUBLIC_URL}/images/organisation/wba.png`} id='wb' alt="WBA" />
+        <img src={`${process.env.PUBLIC_URL}/images/organisation/ibf.png`} id='i' alt="IBF" />
       </div>
 
       <br></br>
@@ -19,7 +19,7 @@ function Info() {
       <br></br>
       <div className="txt">
         <p>
-          Ce site web est conçu pour vous permettre de vous entraîner en cardio 
+          B.S à été conçu pour vous permettre de vous entraîner en cardio 
           en pratiquant le "Shadow Boxing" avec divers niveaux de difficulté. 
           Vous y trouverez des vidéos, des conseils d'experts et des routines 
           d'entraînement variées pour améliorer votre technique et votre 

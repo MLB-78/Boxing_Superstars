@@ -1,5 +1,5 @@
 import React from 'react';
-import '../css/ISection.css';
+import '../css/CoverSection.css';
 
 function AdeSection() {
   return (
@@ -8,9 +8,8 @@ function AdeSection() {
         <img src="images/cb.jpg" alt="Background" />
       </div>
       <div className="content">
-        {/* Boutons */}
         <button className="btn btn-primary">Commencer</button>
-        <button className="btn btn-primary">B.S c'est quoi ?</button>
+        <button className="btn btn-primary">En savoir plus</button>
       </div>
     </section>
   );
