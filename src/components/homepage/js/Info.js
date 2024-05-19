@@ -4,7 +4,7 @@ import '../css/Info.css';
 function Info() {
   return (
     <div className="info">
-      <div className="orga">
+      <div className="orga" id='orga'>
         <img src={`${process.env.PUBLIC_URL}/images/organisation/ufc.png`} id='u' alt="UFC" />
         <img src={`${process.env.PUBLIC_URL}/images/organisation/pfl.png`} id='p' alt="PFL" />
         <img src={`${process.env.PUBLIC_URL}/images/organisation/bellator.png`} id='b' alt="BELLATOR" />

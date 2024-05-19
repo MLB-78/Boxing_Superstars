@@ -9,7 +9,9 @@ function AdeSection() {
       </div>
       <div className="content">
         <button className="btn btn-primary">Commencer</button>
-        <button className="btn btn-primary">En savoir plus</button>
+        <button className="btn btn-primary">
+          <a href="#orga" >En savoir plus</a>
+        </button>
       </div>
     </section>
   );
