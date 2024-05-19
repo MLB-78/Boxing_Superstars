@@ -4,10 +4,10 @@
 Ce site web est conçu pour vous permettre de vous entraîner en cardio en pratiquant le "Shadow Boxing" avec différents niveaux de difficulté. Doté d'une interface plaisante, il offre également du contenu sur les meilleurs sportifs du moment, vous permettant de vous inspirer pour vos séances de shadow boxing.
 
 ## MCD
-<img src="mcd.bs.png" alt="Texte alternatif" width="300" />
+<img src="github/mcd.bs.png" alt="Texte alternatif" width="300" />
 
 ## Suivi du projet avec Trello
-<img src="trell.png" alt="Texte alternatif" width="300" />
+<img src="github/trell.png" alt="Texte alternatif" width="300" />
 
 ### Gestion du Projet - 
 - Réflexion du site avec le MCD (1j)
@@ -25,6 +25,7 @@ Ce site web est conçu pour vous permettre de vous entraîner en cardio en prati
 - Suivi des séances d'entraînement effectuées.
 
 ## Aperçu
+<img src="github/bs.png" alt="Texte alternatif" width="300" />
 
 ## Technologies Utilisées
 
