@@ -1,9 +1,9 @@
 import React from 'react'
 
-function fighters() {
+function Fighters() {
   return (
     <h1>KOTO AMATSU KAMI</h1>
   )
 }
 
-export default fighters
+export default Fighters
