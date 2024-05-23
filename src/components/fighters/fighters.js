@@ -1,6 +1,7 @@
 import React from 'react'
 
-function Fighters() {
+
+function fighters() {
   return (
     <h1>KOTO AMATSU KAMI</h1>
   )
