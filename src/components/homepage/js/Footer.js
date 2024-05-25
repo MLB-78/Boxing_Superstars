@@ -7,10 +7,10 @@ function Footer() {
       <div className="container">
         <div className="footer-content">
           <div className="social-icons">
-            <a href="https://www.linkedin.com/in/mlb-njo/" target="_blank" rel="Linkedin">
+            <a href="https://www.linkedin.com/in/mlb-njo/" target="_blank" rel="noopener noreferrer">
               <img src={`${process.env.PUBLIC_URL}/icon/lk.png`} alt="LinkedIn" />
             </a>
-            <a href="https://github.com/MLB-78" target="_blank" rel="MLB">
+            <a href="https://github.com/MLB-78" target="_blank" rel="noopener noreferrer">
               <img src={`${process.env.PUBLIC_URL}/icon/git.png`} alt="GitHub" />
             </a>
           </div>
