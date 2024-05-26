@@ -1,4 +1,4 @@
-# Boxing Superstar - "Le projet de toute une vie"
+# Boxing Superstars - "Le projet de toute une vie"
 ## Site Web d'Entraînement pour le Cardio
 
 Ce site web est conçu pour vous permettre de vous entraîner en cardio en pratiquant le "Shadow Boxing" avec différents niveaux de difficulté. Doté d'une interface plaisante, il offre également du contenu sur les meilleurs sportifs du moment, vous permettant de vous inspirer pour vos séances de shadow boxing.
@@ -32,5 +32,5 @@ Ce site web est conçu pour vous permettre de vous entraîner en cardio en prati
 Ce projet est développé en utilisant les technologies suivantes :
 
 - **React** : pour la partie front-end de l'application.
-- **Node.js** : pour la partie back-end de l'application.
+- **Node.js** : pour la partie back-end de l'application. (Express / axios)
 - **MongoDB** : pour la base de données.
