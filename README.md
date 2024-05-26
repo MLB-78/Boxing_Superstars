@@ -32,5 +32,5 @@ Ce site web est conçu pour vous permettre de vous entraîner en cardio en prati
 Ce projet est développé en utilisant les technologies suivantes :
 
 - **React** : pour la partie front-end de l'application.
-- **Node.js** : pour la partie back-end de l'application. Déppendance : (express / axios / mongoose)
+- **Node.js** : pour la partie back-end de l'application. Dépendance : (express / axios / mongoose)
 - **MongoDB** : pour la base de données.
