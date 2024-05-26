@@ -1,5 +1,5 @@
 import React from 'react';
-import './Fighters.css'; // Assurez-vous de créer un fichier CSS pour le style
+import './Fighters.css';
 
 function Fighters({ fighters }) {
   return (
@@ -11,7 +11,7 @@ function Fighters({ fighters }) {
             <div className="left-section">
               <h2 className="text-black">{fighter.nom}</h2>
               <img src={fighter.image} alt={fighter.nom} className="fighter-image" />
-              <p className="text-black">Âge : {fighter.age}</p> {/* Utiliser `fighter.age` au lieu de `fighter.âge` */}
+              <p className="text-black">Âge : {fighter.age}</p> 
               <img src={fighter.flag} alt="flag" className="flag-image" />
             </div>
             <div className="right-section">
