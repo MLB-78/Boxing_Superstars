@@ -25,7 +25,7 @@ Ce site web est conçu pour vous permettre de vous entraîner en cardio en prati
 - Suivi des séances d'entraînement effectuées.
 
 ## Aperçu
-<img src="github/bs.png" alt="Texte alternatif" width="300" />
+<img src="github/bs.png" alt="Texte alternatif" width="300" /> <img src="github/bs2.png" alt="Texte alternatif" width="300" />
 
 ## Technologies Utilisées
 
