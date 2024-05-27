@@ -13,41 +13,40 @@
 
 .fighters-container {
   display: flex;
+  width: 100%;
+
 }
 
 .fighter-card {
-  flex: 0 0 auto;
-  width: 100%; /* Chaque carte occupe toute la largeur du conteneur */
+  flex: 0 0 100%;
   background-color: crimson;
-  display: flex; /* Utiliser flexbox pour centrer les éléments */
-  justify-content: center; /* Centrer horizontalement */
-  align-items: center; /* Centrer verticalement */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+  flex-direction: row; /* Ajouté pour organiser les sections en ligne */
 }
 
 .left-section,
 .right-section {
   width: 50%;
-}
-
-.left-section {
   display: flex;
   flex-direction: column;
   align-items: center;
   padding: 10px;
-  width: initial;
+  box-sizing: border-box;
+}
+
+.left-section {
+  justify-content: center;
+  text-align: center;
 }
 
 .right-section {
-  display: flex;
-  flex-direction: column;
-  overflow-y: auto; /* Pour éviter le débordement vertical */
-  padding: 10px; 
-  width: initial;
-  margin-left: 110px;
+  overflow-y: auto; 
 }
 
 .fighter-image {
-  
   max-width: 300px;
   height: auto;
 }
@@ -58,15 +57,13 @@
 }
 
 .video-frame {
-  width: 25%;
-  height: 200px; /* Ajuster la taille de la vidéo selon vos besoins */
+  width: 500px;
+  height: 200px;
 }
 
-p.text-black {
-  width: 30%;
+.text-black {
+  width: 80%;
 }
-
-
 
 .arrow {
   background: none;
@@ -86,4 +83,68 @@ p.text-black {
 
 .right-arrow {
   right: 10px;
+}
+
+/* Media Queries pour la réactivité */
+
+@media (max-width: 1200px) {
+  .video-frame {
+    width: 400px;
+    height: 200px;
+  }
+}
+
+@media (max-width: 992px) {
+  .video-frame {
+    width: 350px;
+    height: 200px;
+  }
+}
+
+@media (max-width: 768px) {
+  .fighter-card {
+    flex-direction: column;
+    padding: 20px;
+  }
+
+  .left-section,
+  .right-section {
+    width: 100%;
+  }
+
+  .fighter-image {
+    max-width: 250px;
+  }
+
+  .video-frame {
+    width: 300px;
+    height: 200px;
+  }
+
+  .arrow {
+    font-size: 1.5rem;
+  }
+}
+
+@media (max-width: 576px) {
+  .fighter-card {
+    padding: 10px;
+  }
+
+  .fighter-image {
+    max-width: 200px;
+  }
+
+  .video-frame {
+    width: 250px;
+    height: 150px;
+  }
+
+  .flag-image {
+    width: 80px;
+  }
+
+  .arrow {
+    font-size: 1.2rem;
+  }
 }

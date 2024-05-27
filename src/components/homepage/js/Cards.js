@@ -1,5 +1,6 @@
 import React from 'react';
 import '../css/Cards.css';
+import { Link } from 'react-router-dom';
 
 function Cards() {
   return (
@@ -25,7 +26,9 @@ function Cards() {
         <br></br>
         <div className="c2">
           <div className="image-container">
+          <Link to="/fighters" className="nav-link">
             <img src={`${process.env.PUBLIC_URL}/images/rubriques/fighters.jpg`} alt="Combattants" />
+          </Link>
               <div className="text-overlay">
                 <span>Liste des fighters</span>
               </div>
