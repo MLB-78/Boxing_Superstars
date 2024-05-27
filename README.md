@@ -8,14 +8,7 @@ Ce site web est conçu pour vous permettre de vous entraîner en cardio en prati
 
 ## Suivi du projet avec Trello
 <img src="github/trell.png" alt="Texte alternatif" width="300" />
-
-### Gestion du Projet - 
-- Réflexion du site avec le MCD (1j)
-- Création de la base et des données dans la bdd mongo (1j)
-- Mise en place des bundles manquant pour react // Ajout des ressources audios et icônes (1j)
-- HomePage (3j)
   
-
 ## Fonctionnalités
 
 - Entraînement en "Shadow Boxing" avec choix de niveau de difficulté.
